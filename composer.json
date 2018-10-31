@@ -1,0 +1,29 @@
+{
+    "name": "wujie/bloom",
+    "description": "配php redis 布隆过滤器",
+    "type": "library",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload":{
+        "psr-4": {
+            "bloom\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wj",
+            "email": "1224805548@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "^7.5@dev"
+    },
+    "autoload-dev":{
+        "psr-4": {
+            "test\\": "test/"
+        }
+    }
+}
